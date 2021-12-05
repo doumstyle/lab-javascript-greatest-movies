@@ -399,7 +399,7 @@ describe('Function "orderAlphabetically"', () => {
 // ******************************************************************************************
 
 // Iteration 7
-/*describe('Function "turnHoursToMinutes"', () => {
+describe('Function "turnHoursToMinutes"', () => {
   it('should be declared', () => {
     expect(typeof turnHoursToMinutes).toBe('function');
   });
@@ -430,7 +430,7 @@ describe('Function "orderAlphabetically"', () => {
     const movieTry = [{ duration: '2h' }];
     expect(turnHoursToMinutes(movieTry)[0].duration).toBe(120);
   });
-});*/
+});
 
 // Iteration 8
 describe('Function "bestYearAvg"', () => {
