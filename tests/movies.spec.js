@@ -91,6 +91,7 @@ describe('Function "howManyMovies"', () => {
     ).toBe(1);
   });
 
+
   it('should return 2 if there are only 2 Steven Spielberg movies', () => {
     expect(
       howManyMovies([
@@ -398,7 +399,7 @@ describe('Function "orderAlphabetically"', () => {
 // ******************************************************************************************
 
 // Iteration 7
-describe('Function "turnHoursToMinutes"', () => {
+/*describe('Function "turnHoursToMinutes"', () => {
   it('should be declared', () => {
     expect(typeof turnHoursToMinutes).toBe('function');
   });
@@ -429,7 +430,7 @@ describe('Function "turnHoursToMinutes"', () => {
     const movieTry = [{ duration: '2h' }];
     expect(turnHoursToMinutes(movieTry)[0].duration).toBe(120);
   });
-});
+});*/
 
 // Iteration 8
 describe('Function "bestYearAvg"', () => {
